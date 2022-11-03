@@ -53,8 +53,8 @@ main div {
     align-self: center;
 }
 .numero-down img{
-    width: 40px;
-    height: 40px;
+    width: 33px;
+    height: 33px;
     align-self: center  ;
 }
 header{
@@ -78,8 +78,8 @@ main{
 }
 .num-down{
     font-family: avenirheavy;
-    font-size: 50px;
-    margin-top: 56px;
+    font-size: 43px;
+    margin-top: 49px;
 }
 .footer{
     display: flex;
@@ -118,7 +118,7 @@ ol{
 .footerimg{
     width: 56px;
     height: 56px;
-    margin-bottom: 23px;
+    margin-bottom: 24px;
     margin-left: 115px;
 }
 
