@@ -59,8 +59,8 @@ main div {
 }
 header{
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 80px;
+    justify-content: space-around;
+    padding-bottom: 30px;
 
     align-items: center;
 }
@@ -68,6 +68,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 314px
 }
 
 .num{
@@ -77,9 +78,12 @@ main{
 }
 .num-down{
     font-family: avenirheavy;
-    font-size: 49px;
+    font-size: 50px;
     margin-top: 56px;
-    margin-left: 5px;
+}
+.footer{
+    display: flex;
+    align-items: center;
 }
 p{
   font-family: avenir_lt_std55_roman;  
@@ -88,10 +92,15 @@ p{
 }
 h3{
     font-family:avenir_lt_std95_black ;
+    margin-right: 141px;
+    display: flex;
+    align-items: center;
 }
 li{
     font-family: avenir_lt_std95_black;
     line-height: 200%;
+    font-size: 12px;
+    margin-left: -6px;
 }
 footer{
     display: flex;
@@ -105,5 +114,11 @@ div{
 }
 ol{
     margin-left: -18px;
+}
+.footer img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 23px;
+    margin-left: 118px;
 }
 
