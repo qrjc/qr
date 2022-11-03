@@ -31,6 +31,7 @@
 
 }
 
+
 *{
     background-color: #fbba00 ;
    
@@ -40,7 +41,7 @@ body{
     padding-left: 10vw;
     padding-right: 10vw;
     margin-top: -20px;
-    
+
 }
 main div {
     display: flex;
@@ -58,23 +59,27 @@ main div {
     align-self: center  ;
 }
 header{
+    opacity: 1;
     display: flex;
     justify-content: space-around;
     padding-bottom: 30px;
-
+    animation: p-load 800ms ease-out 800ms;
+    animation-fill-mode: forwards;
     align-items: center;
 }
 main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 314px
+    height: 384px
 }
+
 
 .num{
     font-family: avenirheavy;
     font-size: 25px;
     margin-top: 30px;
+    margin-right: 3px;
 }
 .num-down{
     font-family: avenirheavy;
@@ -84,23 +89,40 @@ main{
 .footer{
     display: flex;
     align-items: center;
+    opacity: 1;
+    animation: p-load 800ms ease-out 800ms;
+    animation-fill-mode: forwards;
 }
 p{
   font-family: avenir_lt_std55_roman;  
   font-size: 16px;
   line-height: 200%;
-}
+  opacity: 1;
+  animation: p-load 800ms ease-out 800ms;
+  animation-fill-mode: forwards;}
 h3{
     font-family:avenir_lt_std95_black ;
     margin-right: 213px;
     display: flex;
     align-items: center;
 }
-li{
+.incorrecta{
     font-family: avenir_lt_std95_black;
     line-height: 200%;
-    font-size: 12px;
-    margin-left: -6px;
+    font-size: 16px;
+    margin-left: -3px;
+    opacity: 1;
+    animation: p-load 400ms ease-out 800ms;
+    animation-fill-mode: forwards;
+
+}
+.correcta{
+    font-family: avenir_lt_std95_black;
+    line-height: 200%;
+    font-size: 16px;
+    margin-left: -3px;
+    animation: correct 1700ms ease-out 900ms;
+    animation-fill-mode: forwards;
 }
 footer{
     display: flex;
@@ -116,9 +138,33 @@ ol{
     margin-left: -18px;
 }
 .footerimg{
-    width: 56px;
-    height: 56px;
-    margin-bottom: 24px;
-    margin-left: 198px;
+    width: 86px;
+    height: 86px;
+    margin-bottom: 52px;
+    margin-left: 164px;
 }
 
+@keyframes p-load{
+    0%{
+        
+        opacity: 1;;
+    }
+    100%{
+     
+        opacity: 0;
+    }
+}
+@keyframes correct{
+    0%{
+
+
+        transform: translate(0%, 0%);
+        scale: 1
+    }
+    100%{
+
+        transform: translate(38%, -182%);
+        scale: 2
+
+    }
+}
