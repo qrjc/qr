@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'avenir_lt_std95_black';
+    src: url('avenirltstd-black-webfont.woff2') format('woff2'),
+         url('avenirltstd-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'avenirheavy';
+    src: url('avenir_heavy-webfont.woff2') format('woff2'),
+         url('avenir_heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'avenir_lt_std45_book';
+    src: url('avenirltstd-book-webfont.woff2') format('woff2'),
+         url('avenirltstd-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'avenir_lt_std55_roman';
+    src: url('avenirltstd-roman-webfont.woff2') format('woff2'),
+         url('avenirltstd-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    background-color: #fbba00 ;
+   
+    color: white;
+}
+body{
+    padding-left: 10vw;
+    padding-right: 10vw;
+       
+    
+}
+main div {
+    display: flex;
+    flex-direction: column;
+    
+}
+.numero-up img{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+.numero-down img{
+    width: 40px;
+    height: 40px;
+    align-self: center  ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.num{
+    font-family: avenirheavy;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.num-down{
+    font-family: avenirheavy;
+    font-size: 49px;
+    margin-top: 56px;
+    margin-left: 5px;
+}
+p{
+  font-family: avenir_lt_std55_roman;  
+  font-size: 12px;
+  line-height: 200%;
+}
+h3{
+    font-family:avenir_lt_std95_black ;
+}
+li{
+    font-family: avenir_lt_std95_black;
+    line-height: 200%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ol{
+    margin-left: -18px;
+}
+
