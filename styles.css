@@ -87,12 +87,12 @@ main{
 }
 p{
   font-family: avenir_lt_std55_roman;  
-  font-size: 12px;
+  font-size: 16px;
   line-height: 200%;
 }
 h3{
     font-family:avenir_lt_std95_black ;
-    margin-right: 141px;
+    margin-right: 213px;
     display: flex;
     align-items: center;
 }
@@ -119,6 +119,6 @@ ol{
     width: 56px;
     height: 56px;
     margin-bottom: 24px;
-    margin-left: 115px;
+    margin-left: 198px;
 }
 
