@@ -104,7 +104,7 @@ li{
 }
 footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 div{
@@ -119,6 +119,6 @@ ol{
     width: 56px;
     height: 56px;
     margin-bottom: 23px;
-    margin-left: 118px;
+    margin-left: 115px;
 }
 
